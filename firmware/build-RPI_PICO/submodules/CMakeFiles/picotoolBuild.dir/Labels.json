@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/CMakeFiles/picotoolBuild"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/CMakeFiles/picotoolBuild.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/CMakeFiles/picotoolBuild-complete.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+		},
+		{
+			"file" : "/home/hylsy4/DEV/micropython_R4_edition/micropython/ports/rp2/build-RPI_PICO/submodules/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotoolBuild"
+		],
+		"name" : "picotoolBuild"
+	}
+}
