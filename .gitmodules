@@ -80,3 +80,6 @@
 [submodule "firmware_src/lib/micropython-lib"]
 	path = firmware_src/lib/micropython-lib
 	url = https://github.com/micropython/micropython-lib.git
+[submodule "firmware_src/lib/mbedtls"]
+	path = firmware_src/lib/mbedtls
+	url = https://github.com/ARMmbed/mbedtls.git
