@@ -77,3 +77,6 @@
 [submodule "firmware_src/lib/mbedtls"]
 	path = firmware_src/lib/mbedtls
 	url = https://github.com/ARMmbed/mbedtls.git
+[submodule "firmware_src/lib/tinyusb"]
+	path = firmware_src/lib/tinyusb
+	url = https://github.com/hathach/tinyusb.git
