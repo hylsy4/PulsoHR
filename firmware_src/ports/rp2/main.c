@@ -23,6 +23,7 @@
 #include "genhdr/mpversion.h"
 #include "mp_usbd.h"
 #include "rp2_psram.h"
+#include "screen.h"
 
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
@@ -186,6 +187,17 @@ int main(int argc, char **argv) {
         #else
         pyexec_frozen_module("_boot.py", false);
         #endif
+
+        // Execute boot splash
+
+        uint8_t screen_buffer[128 * 8]; // total pixels / bytes
+
+        // Fill it with 0xFF
+        for (int i = 0; i < 128 * 8; i++) {
+            screen_buffer[i] = 0xFF; // 0b11111111
+        }
+
+        send_frame(screen_buffer, 128 * 8);
 
         // Execute user scripts.
         int ret = pyexec_file_if_exists("boot.py");
