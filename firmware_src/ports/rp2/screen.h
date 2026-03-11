@@ -35,5 +35,10 @@ void i2c_bus_init(void);
 
 void send_frame(uint8_t *data, size_t length);
 
+void set_screen_high(void);
+
+void screen_white(void);
+
+void screen_logo(void);
 
 #endif

@@ -176,6 +176,7 @@ set(MICROPY_SOURCE_PORT
     usbd.c
     msc_disk.c
     mbedtls/mbedtls_port.c
+    screen.c
     ${CMAKE_BINARY_DIR}/pins_${MICROPY_BOARD}.c
 )
 

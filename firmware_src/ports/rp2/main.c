@@ -190,14 +190,9 @@ int main(int argc, char **argv) {
 
         // Execute boot splash
 
-        uint8_t screen_buffer[128 * 8]; // total pixels / bytes
+        i2c_bus_init();
 
-        // Fill it with 0xFF
-        for (int i = 0; i < 128 * 8; i++) {
-            screen_buffer[i] = 0xFF; // 0b11111111
-        }
-
-        send_frame(screen_buffer, 128 * 8);
+        screen_logo();
 
         // Execute user scripts.
         int ret = pyexec_file_if_exists("boot.py");
