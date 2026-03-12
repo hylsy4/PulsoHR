@@ -81,7 +81,7 @@ void send_frame(uint8_t *data, size_t len) {
     i2c_write_blocking(I2C_PORT, SCREEN_ADDR, buffer, len + 1, false);
 }
 
-void set_screen_high() {
+void set_fullscreen_draw() {
     uint8_t x[] = {
         0x00,
         0x21, 0, 127,
@@ -97,11 +97,11 @@ void screen_white() {
         buffer[i] = 0xFF;
     }
 
-    set_screen_high();
+    set_fullscreen_draw();
     send_frame(buffer, 1024);
 }
 
 void screen_logo() {
-    set_screen_high();
+    set_fullscreen_draw();
     send_frame(logo_buffer, 1024);
 }
