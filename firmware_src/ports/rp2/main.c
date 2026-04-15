@@ -192,7 +192,11 @@ int main(int argc, char **argv) {
 
         i2c_bus_init();
 
-        screen_logo();
+        screen_splash();
+
+        sleep_ms(1000);
+
+        screen_clear();
 
         // Execute user scripts.
         int ret = pyexec_file_if_exists("boot.py");

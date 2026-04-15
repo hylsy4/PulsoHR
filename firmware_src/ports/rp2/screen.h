@@ -39,6 +39,10 @@ void set_fullscreen_draw(void);
 
 void screen_white(void);
 
-void screen_logo(void);
+void screen_clear(void);
+
+void screen_menu(void);
+
+void screen_splash(void);
 
 #endif
